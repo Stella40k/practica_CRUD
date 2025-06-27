@@ -4,6 +4,6 @@ import "dotenv/config";
 const app = express();
 const port = process.env.port;
 
-app.listen() =>{
+app.listen(port, () =>{
     console.log(`Se esta escuchando en el puerto${port}`)
-}
+});
